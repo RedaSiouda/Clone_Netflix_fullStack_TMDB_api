@@ -1,0 +1,27 @@
+.RowMovie{
+    width: 100%;
+    height: auto;
+    background-color: #010101;
+    color: white;
+}
+.RowMovie__title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.RowMovie__movieList{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll
+}
+.RowMovie__movieList::-webkit-scrollbar{
+    display: none;
+}
+.RowMovie__img{
+    width: 250px;
+    height: 270px;
+    margin-right: 20px;
+}
+.RowMovie__row{
+    margin-top: 20px;
+}

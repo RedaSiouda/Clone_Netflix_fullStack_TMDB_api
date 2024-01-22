@@ -1,0 +1,15 @@
+.profilPage{
+    width: 100%;
+    height: 100vh;
+    background-color: #010101;
+}
+.profilPage__title{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding-top: 150px;
+}
+.profilPage__containAvatar{
+    display: flex;
+    justify-content: center;
+}

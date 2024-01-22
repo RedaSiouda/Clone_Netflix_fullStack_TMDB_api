@@ -1,0 +1,115 @@
+/* mise en place du background*/
+.login{
+    background-image: url(../assets//img/background-black.jpg);
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+/*mise en style header */
+.login__header{
+    width: 100%;
+    height: 120px;
+}
+
+/*Mise en style logo*/
+.login__containLogo{
+    width: 280px;
+    height: 130px;
+    background-color: black;
+}
+.login__logo{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* mise en style du formulaire*/
+.login__containForm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login__form{
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.login__formTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login__containInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.login__input{
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #333 ;
+}
+
+.login__btnSubmit{
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #e50914;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login__metaForm{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.login__labelCheckbox{
+    margin-left: 10px;
+}
+
+.login__formSignUp{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+.anchor{
+    margin-left: 5px;
+}
+
+.login__captchaText{
+    font-size: 13px;
+}
+/**/
+
+/**/
+
+/**/

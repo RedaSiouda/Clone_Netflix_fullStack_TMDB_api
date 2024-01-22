@@ -1,0 +1,33 @@
+
+.avatar{
+    margin-top: 30px;
+}
+.avatar__containAvatarImg{
+    display: flex;
+    justify-content: center;
+}
+.avatar__img{
+    width: 150px;
+    border: 3px solid black;
+}
+.avatar__pseudo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.avatar__link{
+    font-size: 22px;
+    margin-top: 20px;
+    color: grey;
+}
+.avatar__containBtn{
+    display: flex;
+    justify-content: center;
+}
+.avatar__btnSubmit{
+    font-size: 22px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
