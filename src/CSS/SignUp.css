@@ -1,0 +1,82 @@
+.signUp{
+    width: 100%;
+    height: 100vh;
+}
+
+.signUp__header{
+    width: 100%;
+    height: 12.2%;
+    background-color: black;
+}
+
+.signUp__containLogo{
+    width: 220px;
+    height: 100%;
+}
+
+.signUp__logo{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.signUp__containForm{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.signUp__form{
+    width: 350px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.signUp__title{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.signUp__containInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.signUp__input{
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px auto ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.signUp__btnSubmit{
+    height: 40px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: rgb(251, 77, 77);
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
