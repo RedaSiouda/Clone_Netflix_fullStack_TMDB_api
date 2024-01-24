@@ -1,7 +1,8 @@
-import React from 'react';
+import './CSS/SignUp.css';
 import Footer from '../src/Components/Footer';
 import { useMutation } from 'react-query';
 import { useNavigate } from 'react-router-dom'; 
+import Logo from './assets/img/netflixLogo.png';
 import axios from 'axios';
 
 const createUser = async ({ email, username, password }: { email: string; username: string; password: string }) => {
@@ -43,27 +44,28 @@ function SignUp() {
     <div className="signUp">
       <header className="signUp__header">
         <div className="signUp__containLogo">
-          <img src="" alt="" className="signUp__logo" />
+          <img src={Logo} alt="" className="signUp__logo" />
         </div>
       </header>
-      <div className="signUp__contentForm">
+      <div className="signUp__containForm">
         <form onSubmit={handleSignUp} className="signUp__form">
           <h3 className="signUp__title">Créer votre compte</h3>
           <div className="signUp__containInput">
-            <input name="email" required type="email" className="signUp__input" />
-            <input name="username" required type="text" className="signUp__input" />
-            <input name="password" required type="password" className="signUp__input" />
+            <input placeholder='Email adress' name="email" required type="email" className="signUp__input" />
+            <input placeholder='username Wanted' name="username" required type="text" className="signUp__input" />
+            <input placeholder='password' name="password" required type="password" className="signUp__input" />
             <button type="submit" className="signUp__btnSubmit">
               Inscription
             </button>
           </div>
         </form>
+      </div>
         <div className="signUp__footer">
           <Footer />
         </div>
-      </div>
     </div>
   );
 }
 
 export default SignUp;
+
